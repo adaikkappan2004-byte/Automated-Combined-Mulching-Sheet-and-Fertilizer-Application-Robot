@@ -46,7 +46,7 @@ AGRIBOT_PASSWORD=your_secure_password
 AGRIBOT_SECRET_KEY=your_random_flask_secret
 ```
 
-> ⚠️ `.env` is listed in `.gitignore` and will never be committed.
+
 
 ### 3. Run (requires root for GPIO + port 80)
 
@@ -75,6 +75,4 @@ Field parameters (length, spacing, rows, pulses/meter) persist in `field_config.
 
 ---
 
-## License
 
-MIT
