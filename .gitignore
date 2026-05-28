@@ -1,0 +1,28 @@
+# Environment / secrets — never commit these
+.env
+
+# Runtime-generated config
+field_config.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# PDF reports generated at runtime
+/tmp/agribot_session_*.pdf
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
